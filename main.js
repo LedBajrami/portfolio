@@ -81,4 +81,8 @@ hiddenElements.forEach((el) => observer.observe(el))
 hiddenElements2.forEach((el) => observer.observe(el))
 hiddenElements3.forEach((el) => observer.observe(el))
 
+const listItemClicked = Array.from(document.querySelectorAll('.list-item'))
 
+listItemClicked.forEach(item => item.addEventListener('click', ()=> {
+  listItems.classList.remove('active')
+}))
