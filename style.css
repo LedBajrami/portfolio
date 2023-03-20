@@ -22,7 +22,7 @@ body {
   position: relative;
   font-family: 'Fira Code', sans-serif;
   background-color: var(--color1);
-  background-image: url('../Project 10/img/bgbg.webp');
+  background-image: url('img/bgbg.webp');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
