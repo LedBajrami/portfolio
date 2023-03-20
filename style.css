@@ -20,6 +20,7 @@ html {
 
 body {
   position: relative;
+  overflow-x: hidden;
   font-family: 'Fira Code', sans-serif;
   background-color: var(--color1);
   /* background-image: url('./img/bgbg.webp'); */
