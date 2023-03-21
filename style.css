@@ -32,19 +32,6 @@ body {
   height: 100vh;
 } 
 
-.ml16 {
-  color: var(--color3);
-  font-weight: 700;
-  font-size: 0.72em;
-  overflow: hidden;
-}
-
-.ml16 .letter {
-  display: inline-block;
-  line-height: 1em;
-}
-
-
 .container {
   width: 85%;
   margin: 0 auto;
@@ -190,6 +177,18 @@ span{
     max-width: 500px;
     margin-bottom: 50px;
   }
+
+  .ml16 {
+    color: var(--color3);
+    font-weight: 700;
+    font-size: 0.72em;
+    overflow: hidden;
+  }
+
+  .ml16 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
  /* -----------------------------HOMEPAGE---------------------------*/
 
 
@@ -224,7 +223,7 @@ span{
   }  
 
     .aboutme-img {
-      width: 54%;
+      width: 69%;
       margin: 20px auto;
       border: 3px solid var(--color2);
       border-radius: 10px;
