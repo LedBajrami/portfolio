@@ -15,12 +15,11 @@
 
 html {
   overflow-x: hidden;
-  scroll-behavior: smooth !important;
+  scroll-behavior: smooth;
 }
 
 body {
   position: relative;
-  overflow-x: hidden;
   font-family: 'Fira Code', sans-serif;
   background-color: var(--color1);
   /* background-image: url('./img/bgbg.webp'); */
@@ -212,26 +211,34 @@ span{
       border: 3px solid var(--color2);
       border-radius: 10px;
     }
+  
 
-    .aboutme-img img {
+    .aboutme-img-overlay-div img {
       width: 100%;
-      margin-top: 30px;
-      margin-left: 40px;
       border-radius: 10px;
-
     }
-    /* .overlay-img {
+
+    .aboutme-img-overlay-div {
+      position: relative;
+      margin-top: 30px;
+      margin-bottom: -30px;
+      margin-left: 30px;
+      border-radius: 10px;
+    }
+    .overlay-img {
       position: absolute;
       top: 0;
       bottom: 0;
       left: 0;
       right: 0;
       background-color: var(--overlay-color);
-      opacity: 0.5;
+      opacity: 0.2;
+      border-radius: 10px;
     }
     .overlay-img:hover {
       opacity: 0;
-    } */
+      
+    }
 
     .aboutme-p {
       color: var(--color4);
