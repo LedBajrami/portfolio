@@ -223,7 +223,7 @@ span{
   }  
 
     .aboutme-img {
-      width: 92%;
+      width: 75%;
       margin: 20px auto;
       border: 3px solid var(--color2);
       border-radius: 10px;
