@@ -8,7 +8,6 @@ openNav.addEventListener('click', () => {
 
 closeNav.addEventListener('click', () => {
   listItems.classList.remove('active')
-  window.onscroll = false
 })
 
 
@@ -81,8 +80,33 @@ hiddenElements.forEach((el) => observer.observe(el))
 hiddenElements2.forEach((el) => observer.observe(el))
 hiddenElements3.forEach((el) => observer.observe(el))
 
+
 const listItemClicked = Array.from(document.querySelectorAll('.list-item'))
 
 listItemClicked.forEach(item => item.addEventListener('click', ()=> {
   listItems.classList.remove('active')
 }))
+
+
+
+
+var textWrapper = document.querySelector('.ml16');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml16 .letter',
+    translateY: [-120,0],
+    easing: "easeOutExpo",
+    duration: 1700,
+    delay: (el, i) => 30 * i
+  }).add({
+    targets: '.ml16',
+    opacity: 1,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 500000
+  });
+
+  var textWrapper = document.querySelector('.ml15');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
