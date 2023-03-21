@@ -19,8 +19,8 @@ html {
 }
 
 body {
-  position: relative;
   overflow-x: hidden;
+  position: relative;
   font-family: 'Fira Code', sans-serif;
   background-color: var(--color1);
   /* background-image: url('./img/bgbg.webp'); */
@@ -31,6 +31,19 @@ body {
   width: 100%;
   height: 100vh;
 } 
+
+.ml16 {
+  color: var(--color3);
+  font-weight: 700;
+  font-size: 0.72em;
+  overflow: hidden;
+}
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
 
 .container {
   width: 85%;
@@ -177,18 +190,6 @@ span{
     max-width: 500px;
     margin-bottom: 50px;
   }
-
-  .ml16 {
-    color: var(--color3);
-    font-weight: 700;
-    font-size: 0.72em;
-    overflow: hidden;
-  }
-
-  .ml16 .letter {
-    display: inline-block;
-    line-height: 1em;
-  }
  /* -----------------------------HOMEPAGE---------------------------*/
 
 
@@ -218,12 +219,8 @@ span{
       top: 16px;
     }
 
-    #aboutme {
-      margin-top: 70px;
-  }  
-
     .aboutme-img {
-      width: 75%;
+      width: 54%;
       margin: 20px auto;
       border: 3px solid var(--color2);
       border-radius: 10px;
