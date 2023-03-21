@@ -218,6 +218,10 @@ span{
       top: 16px;
     }
 
+    #aboutme {
+      margin-top: 70px;
+  }  
+
     .aboutme-img {
       width: 54%;
       margin: 20px auto;
