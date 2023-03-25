@@ -154,7 +154,7 @@ span{
 
  /* -----------------------------HOMEPAGE---------------------------*/
  #home {
-  background-image: url('/francisco/img/backgroundimg.webp');
+  background-image: url('img/backgroundimg.webp');
   background-size: cover;
   background-position: center top -40%;
   /* background-attachment: fixed; */
