@@ -23,13 +23,11 @@ body {
   position: relative;
   font-family: 'Fira Code', sans-serif;
   background-color: var(--color1);
-  /* background-image: url('./img/bgbg.webp'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;
-  height: 100vh;
 } 
 
 .ml16 {
@@ -57,7 +55,6 @@ body {
 header {
   padding: 0 60px 5px 10px;
   background-color: transparent;
-
 }
 
 .open-mobile-nav,
@@ -156,12 +153,20 @@ span{
 
 
  /* -----------------------------HOMEPAGE---------------------------*/
-  .home-page {
+ #home {
+  background-image: url('/francisco/img/backgroundimg.webp');
+  background-size: cover;
+  background-position: center top -40%;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+} 
+ 
+ .home-page {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100svh;
-    width: 100svw;
+    height: 100vh;
+    width: 100  vw;
   }
 
   .home-page-text {
@@ -202,6 +207,12 @@ span{
 
 
   /* -----------------------------AboutMe---------------------------*/
+
+  #aboutme {
+    background: rgb(13,16,21);
+    background: linear-gradient(180deg, rgba(13,16,21,1) 7%, rgba(10,25,48,1) 52%);
+    padding-top: 100px;
+  }
     .section-h2 {
       color: var(--color4);
       position: relative;
@@ -581,8 +592,8 @@ span{
 
 
 @media(min-width: 1000px) {
-  body {
-    background-image: url('./img/bgbg.webp');
+  #home {
+    background-size: cover;
   } 
 
   .container {
