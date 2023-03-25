@@ -468,6 +468,10 @@ span{
    #contact {
     margin-top: 200px;
     text-align: center;
+     background-image: url('img/bgbg.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 40px;
    }
 
