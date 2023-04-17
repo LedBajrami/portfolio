@@ -211,7 +211,7 @@ span{
   #aboutme {
     background: rgb(13,16,21);
     background: linear-gradient(180deg, rgba(13,16,21,1) 7%, rgba(10,25,48,1) 52%);
-    padding-top: 100px;
+    padding-top: 120px;
   }
     .section-h2 {
       color: var(--color4);
@@ -468,7 +468,7 @@ span{
    #contact {
     margin-top: 200px;
     text-align: center;
-     background-image: url('img/bgbg.webp');
+    background-image: url('img/bgbg.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -608,6 +608,7 @@ span{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 50px;
  }
 .list-item {
   list-style: none;
@@ -656,6 +657,9 @@ span{
 
 .project-img {
   width: 50%;
+}
+.project-img img {
+  min-width: 410px;
 }
 
 .project-img .img{
