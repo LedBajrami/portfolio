@@ -53,7 +53,7 @@ body {
 /* -----------------------------HEADER--------------------------- */
 
 header {
-  padding: 0 60px 5px 10px;
+  padding: 10px 60px 5px 10px;
   background-color: transparent;
 }
 
@@ -610,6 +610,11 @@ span{
   justify-content: space-between;
   gap: 50px;
  }
+
+ header {
+  padding: 15px 60px 5px 50px;
+ }
+
 .list-item {
   list-style: none;
   color: white;
