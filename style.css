@@ -633,6 +633,7 @@ span{
 }
 
 .aboutme-img {
+  display: block;
   width: 280px;
   height: 450px;
   margin: 20px auto;
