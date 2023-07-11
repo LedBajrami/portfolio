@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Gerbil";
+  src: url("fonts/gerbil.ttf");
+}
+
 :root {
   --color1: #0a1930;
   --color2: #55c2b5;
@@ -166,7 +171,7 @@ span{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100  vw;
+    width: 100vw;
   }
 
   .home-page-text {
@@ -175,17 +180,18 @@ span{
   }
 
   .home-page-name {
-    font-size: 48px;
+    font-size: 44px;
     color: var(--color3);
     font-weight: 600;
     line-height: 50px;
     letter-spacing: normal;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gerbil', sans-serif;
     margin-block: 20px;
   }
   .second-p {
     display: block;
-    font-size:40px;
+    font-size:41px;
+    line-height: 50px;
     color: var(--color4);
   }
 
@@ -534,7 +540,7 @@ span{
 .fadeLeft {
   opacity: 0;
   filter: blur(2px);
-  transform: translateX(60%);
+  transform: translateX(5%);
   transition:ease-out 0.8s;
 }
 
@@ -543,7 +549,7 @@ span{
 .fadeRight {
   opacity: 0;
   filter: blur(2px);
-  transform: translateX(-60%);
+  transform: translateX(-5%);
   transition:ease-out 0.8s;
 }
 
@@ -644,11 +650,11 @@ span{
 }
 
 .home-page-name {
-  font-size: 72px;
-  line-height: 73px;
+  font-size: 58px;
+  line-height: 53px;
 }
 .second-p {
-  font-size: 64px;
+  font-size: 44px;
 }
 
 .home-page-description {
