@@ -193,6 +193,7 @@ span{
     font-size:41px;
     line-height: 50px;
     color: var(--color4);
+    z-index: 4;
   }
 
   .description-p {
